@@ -14,6 +14,17 @@ class BinaryNode{
         }
         BinaryNode(T givenData){
             Data = givenData;
+            Left = NULL;
+            Right = NULL;
         }
-        void insertNode() {}
+        T getData() {return Data;}
+        void setDaya(T givenData) {Data = givenData;}
+};
+
+template <typename T>
+class BinaryList{
+    private:
+        BinaryNode<T>* Root;
+    public:
+        
 };
